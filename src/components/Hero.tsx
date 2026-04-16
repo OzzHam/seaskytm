@@ -1,4 +1,4 @@
-import logo from "@/assets/logo.png";
+import heroImage from "@/assets/hero-image.png";
 import { Phone, Clock, MapPin, Sparkles } from "lucide-react";
 
 const Hero = () => (
