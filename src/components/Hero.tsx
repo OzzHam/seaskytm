@@ -9,10 +9,10 @@ const Hero = () => (
       
       {/* Logo area */}
       <div className="pt-24 pb-4 md:pb-0 flex items-center gap-3 animate-fade-in">
-        <img src={logo} alt="Sae Sky Thaimassage logotyp" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
+        <img src={logo} alt="Sea Sky Thaimassage logotyp" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
         <div>
           <p className="font-heading text-2xl md:text-3xl font-semibold" style={{ color: "#6B4F3A" }}>
-            Sae Sky
+            Sea Sky
           </p>
           <p className="text-xs tracking-[0.2em] uppercase font-body" style={{ color: "#C8A96A" }}>
             Thaimassage

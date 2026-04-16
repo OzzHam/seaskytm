@@ -11,7 +11,7 @@ const Contact = () => (
           <div className="flex items-start gap-4">
             <MapPin className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
             <div className="font-body text-foreground">
-              <p className="font-medium">Sae Sky Thaimassage</p>
+              <p className="font-medium">Sea Sky Thaimassage</p>
               <p className="text-muted-foreground">Komministergatan 18</p>
               <p className="text-muted-foreground">442 30 Kungälv, Sverige</p>
             </div>
@@ -41,7 +41,7 @@ const Contact = () => (
         </div>
         <div className="rounded-sm overflow-hidden shadow-sm h-72 md:h-auto min-h-[280px]">
           <iframe
-            title="Sae Sky Thaimassage karta"
+            title="Sea Sky Thaimassage karta"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2119.5!2d11.9726!3d57.8711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTfCsDUyJzE2LjAiTiAxMcKwNTgnMjEuNCJF!5e0!3m2!1ssv!2sse!4v1"
             width="100%"
             height="100%"

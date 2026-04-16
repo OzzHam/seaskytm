@@ -5,7 +5,7 @@ const LocalSeo = () => (
         Thaimassage i Kungälv – nära dig
       </h2>
       <p className="text-muted-foreground font-body leading-relaxed text-base md:text-lg mb-4">
-        Letar du efter professionell thaimassage i Kungälv? Hos Sae Sky Thaimassage får du en autentisk och avslappnande upplevelse i en lugn och harmonisk miljö.
+        Letar du efter professionell thaimassage i Kungälv? Hos Sea Sky Thaimassage får du en autentisk och avslappnande upplevelse i en lugn och harmonisk miljö.
       </p>
       <p className="text-muted-foreground font-body leading-relaxed text-base md:text-lg">
         Vi erbjuder både klassisk thaimassage och oljemassage för dig som vill minska stress, lindra muskelspänningar och förbättra ditt välbefinnande. Vår salong ligger centralt i Kungälv och är ett populärt val även för kunder från Göteborg.
