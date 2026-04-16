@@ -17,10 +17,10 @@ const About = () => (
         </div>
         <div>
           <h2 className="font-heading text-3xl md:text-5xl font-semibold text-foreground mb-8">
-            Om Sae Sky Thaimassage
+            Om Sea Sky Thaimassage
           </h2>
           <p className="text-muted-foreground font-body leading-relaxed text-base md:text-lg mb-4">
-            Välkommen till Sae Sky Thaimassage i Kungälv – en plats där kropp och sinne får återhämta sig.
+            Välkommen till Sea Sky Thaimassage i Kungälv – en plats där kropp och sinne får återhämta sig.
           </p>
           <p className="text-muted-foreground font-body leading-relaxed text-base md:text-lg mb-4">
             Vi erbjuder traditionell thailändsk massage och oljemassage som hjälper till att minska stress och spänningar. Våra behandlingar utförs med omsorg och fokus på kvalitet.
