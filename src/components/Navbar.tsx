@@ -24,8 +24,8 @@ const Navbar = () => {
               {l.label}
             </a>
           ))}
-          <a href="tel:0763019288" className="inline-flex items-center gap-2 px-5 py-2 bg-primary text-primary-foreground font-body text-sm font-medium rounded-sm hover:bg-gold-dark transition-colors">
-            📞 Boka tid
+          <a href="tel:0763019288" className="px-5 py-2 bg-primary text-primary-foreground font-body text-sm font-medium rounded-sm hover:bg-gold-dark transition-colors">
+            Boka tid
           </a>
         </div>
         <button onClick={() => setOpen(!open)} className="md:hidden text-foreground" aria-label="Meny">
