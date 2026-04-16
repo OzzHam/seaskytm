@@ -1,6 +1,6 @@
 import portrait from "@/assets/portrait.png";
 import logo from "@/assets/logo.png";
-import { Clock, MapPin, Sparkles } from "lucide-react";
+import { Phone, Clock, MapPin, Sparkles } from "lucide-react";
 
 const Hero = () => (
   <section className="relative min-h-[90vh] flex flex-col overflow-hidden" style={{ background: "#F7F3EF" }}>
@@ -66,7 +66,7 @@ const Hero = () => (
               className="inline-flex items-center justify-center gap-2 px-8 py-4 font-body font-medium tracking-wider text-sm uppercase rounded-full text-white transition-all duration-300 hover:shadow-lg hover:brightness-95"
               style={{ backgroundColor: "#C8A96A" }}
             >
-              📞 Boka tid
+              <Phone className="w-4 h-4" /> Boka tid
             </a>
           </div>
         </div>
