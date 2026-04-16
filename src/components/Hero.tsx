@@ -1,6 +1,6 @@
 import portrait from "@/assets/portrait.png";
 import logo from "@/assets/logo.png";
-import { Phone, Calendar, Clock, MapPin, Sparkles } from "lucide-react";
+import { Clock, MapPin, Sparkles } from "lucide-react";
 
 const Hero = () => (
   <section className="relative min-h-[90vh] flex flex-col overflow-hidden" style={{ background: "#F7F3EF" }}>
@@ -66,16 +66,7 @@ const Hero = () => (
               className="inline-flex items-center justify-center gap-2 px-8 py-4 font-body font-medium tracking-wider text-sm uppercase rounded-full text-white transition-all duration-300 hover:shadow-lg hover:brightness-95"
               style={{ backgroundColor: "#C8A96A" }}
             >
-              <Calendar className="w-4 h-4" />
-              Boka tid
-            </a>
-            <a
-              href="tel:0763019288"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 font-body font-medium tracking-wider text-sm uppercase rounded-full transition-all duration-300 hover:bg-black/5"
-              style={{ border: "1.5px solid #6B4F3A", color: "#6B4F3A" }}
-            >
-              <Phone className="w-4 h-4" />
-              Ring nu
+              📞 Boka tid
             </a>
           </div>
         </div>
