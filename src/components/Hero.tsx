@@ -70,25 +70,12 @@ const Hero = () => (
           </div>
         </div>
 
-        {/* Right – Portrait with golden arc */}
+        {/* Right – Logo */}
         <div className="flex-1 flex justify-center md:justify-end relative mt-8 md:mt-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          {/* Golden circle arc */}
-          <div
-            className="absolute w-[320px] h-[320px] md:w-[450px] md:h-[450px] lg:w-[520px] lg:h-[520px] rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-            style={{
-              border: "2px solid rgba(200, 169, 106, 0.3)",
-              background: "radial-gradient(circle, rgba(200, 169, 106, 0.08) 0%, transparent 70%)",
-            }}
-          />
-          {/* Subtle inner glow */}
-          <div
-            className="absolute w-[280px] h-[280px] md:w-[380px] md:h-[380px] lg:w-[440px] lg:h-[440px] rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-2xl opacity-20"
-            style={{ background: "#C8A96A" }}
-          />
           <img
             src={logo}
             alt="Sea Sky Thaimassage logotyp"
-            className="relative z-10 w-64 md:w-80 lg:w-[360px] h-auto object-contain drop-shadow-xl"
+            className="relative z-10 w-72 md:w-96 lg:w-[440px] h-auto object-contain drop-shadow-xl"
           />
         </div>
       </div>
