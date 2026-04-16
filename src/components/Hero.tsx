@@ -94,14 +94,6 @@ const Hero = () => (
               <p className="text-xs opacity-70">Komministergatan 18</p>
             </div>
           </div>
-          <div className="hidden sm:block w-px h-8" style={{ background: "rgba(200,169,106,0.3)" }} />
-          <div className="flex items-center gap-2 text-sm font-body" style={{ color: "#6B4F3A" }}>
-            <Sparkles className="w-4 h-4" style={{ color: "#C8A96A" }} />
-            <div>
-              <p className="font-medium">Lediga tider idag</p>
-              <p className="text-xs opacity-70">Boka din stund</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
