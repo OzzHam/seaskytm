@@ -1,4 +1,4 @@
-import portrait from "@/assets/portrait.png";
+import logo from "@/assets/logo.png";
 import logo from "@/assets/logo.png";
 import { Phone, Clock, MapPin, Sparkles } from "lucide-react";
 
@@ -87,8 +87,8 @@ const Hero = () => (
             style={{ background: "#C8A96A" }}
           />
           <img
-            src={portrait}
-            alt="thaimassage kungälv"
+            src={logo}
+            alt="Sea Sky Thaimassage logotyp"
             className="relative z-10 w-64 md:w-80 lg:w-[360px] h-auto object-contain drop-shadow-xl"
           />
         </div>
