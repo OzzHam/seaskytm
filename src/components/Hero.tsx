@@ -72,11 +72,13 @@ const Hero = () => (
 
         {/* Right – Logo */}
         <div className="flex-1 flex justify-center md:justify-end relative mt-8 md:mt-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          <img
-            src={logo}
-            alt="Sea Sky Thaimassage logotyp"
-            className="relative z-10 w-72 md:w-96 lg:w-[440px] h-auto object-contain drop-shadow-xl"
-          />
+          <div className="bg-white/80 rounded-2xl p-8 md:p-12 shadow-lg">
+            <img
+              src={logo}
+              alt="Sea Sky Thaimassage logotyp"
+              className="w-72 md:w-96 lg:w-[440px] h-auto object-contain"
+            />
+          </div>
         </div>
       </div>
     </div>
